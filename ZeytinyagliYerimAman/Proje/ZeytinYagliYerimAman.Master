@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ZeytinYagliYerimAman.master.cs" Inherits="ZeytinyagliYerimAman.Proje.ZeytinYagliYerimAman" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Assets/css/MainLayout.css" rel="stylesheet" />
+    <link href="../Assets/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Assets/fontawesome/css/all.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-4 menu">
+                    <a href="#" style="font-size: 25pt;"><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 menu">
+                    <a href="#">VİDEO</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 menu">
+                    <a href="#">ÜRÜNLER</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 menu">
+                    <a href="#"></a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 menu">
+                    <a href="ZeytinyagiBlog.aspx">ZEYTİNYAĞI BLOG</a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 menu">
+                    <a href="#">İLETİŞİM</a>
+                </div>
+            </div>
+            <%--<ul class="nav nav-pills">
+                <li class="nav-item" style="margin-top: 25px; margin-left: 50px;"><a href="#" style="font-size: 25pt;"><i class="fa-solid fa-user"></i></a>
+                </li>
+                <li class="nav-item" style="margin-left:220px;">
+                    <a href="#">VİDEO</a>
+                </li>
+                <li class="nav-item" style="margin-left: 100px;">
+                    <a href="#">ÜRÜNLER</a>
+                </li>
+                <li class="nav-item" style="margin-left: 470px;">
+                    <a href="#">ZEYTİNYAĞI BLOG</a>
+                </li>
+                <li class="nav-item" style="margin-left: 100px;">
+                    <a href="#">İLETİŞİM</a>
+                </li>
+            </ul>--%>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="../Assets/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../Assets/bootstrap-5.3.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

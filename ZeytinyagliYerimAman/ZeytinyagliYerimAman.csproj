@@ -67,7 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Anasayfa.aspx" />
     <Content Include="Assets\angular-1.8.2\angular-animate.js" />
     <Content Include="Assets\angular-1.8.2\angular-animate.min.js" />
     <Content Include="Assets\angular-1.8.2\angular-aria.js" />
@@ -4797,25 +4796,37 @@
     <Content Include="Assets\fontawesome\svgs\solid\z.svg" />
     <Content Include="Assets\photo\felovia 5 litre.png" />
     <Content Include="Assets\photo\felovia 5litre 2.png" />
+    <Content Include="Assets\photo\zeytinyagi2L.jpg" />
+    <Content Include="Assets\photo\zeytinyagi2L_2.jpg" />
+    <Content Include="Assets\photo\zeytinyagi2L_3.jpg" />
     <Content Include="Assets\photo\zeytinyağıanasyafa.jpg" />
+    <Content Include="Proje\Anasayfa.aspx" />
+    <Content Include="Proje\ZeytinyagiBlog.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Anasayfa.aspx.cs">
+    <Compile Include="Proje\Anasayfa.aspx.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Anasayfa.aspx.designer.cs">
+    <Compile Include="Proje\Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proje\ZeytinyagiBlog.aspx.cs">
+      <DependentUpon>ZeytinyagiBlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proje\ZeytinyagiBlog.aspx.designer.cs">
+      <DependentUpon>ZeytinyagiBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proje\ZeytinYagliYerimAman.Master.cs">
+      <DependentUpon>ZeytinYagliYerimAman.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proje\ZeytinYagliYerimAman.Master.designer.cs">
+      <DependentUpon>ZeytinYagliYerimAman.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ZeytinyagliYerimAman.Master.cs">
-      <DependentUpon>ZeytinyagliYerimAman.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ZeytinyagliYerimAman.Master.designer.cs">
-      <DependentUpon>ZeytinyagliYerimAman.Master</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="json.json" />
@@ -5133,13 +5144,13 @@
     <Content Include="Assets\fontawesome\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Assets\fontawesome\webfonts\fa-v4compatibility.woff2" />
     <None Include="packages.config" />
+    <Content Include="Proje\ZeytinYagliYerimAman.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="ZeytinyagliYerimAman.Master" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\angular-1.8.2\i18n\ngLocale\" />

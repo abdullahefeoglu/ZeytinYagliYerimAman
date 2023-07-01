@@ -4801,6 +4801,8 @@
     <Content Include="Assets\photo\zeytinyagi2L_3.jpg" />
     <Content Include="Assets\photo\zeytinyağıanasyafa.jpg" />
     <Content Include="Proje\Anasayfa.aspx" />
+    <Content Include="Proje\UrunDetay.aspx" />
+    <Content Include="Proje\Video.aspx" />
     <Content Include="Proje\ZeytinyagiBlog.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -4811,6 +4813,20 @@
     </Compile>
     <Compile Include="Proje\Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proje\UrunDetay.aspx.cs">
+      <DependentUpon>UrunDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proje\UrunDetay.aspx.designer.cs">
+      <DependentUpon>UrunDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Proje\Video.aspx.cs">
+      <DependentUpon>Video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proje\Video.aspx.designer.cs">
+      <DependentUpon>Video.aspx</DependentUpon>
     </Compile>
     <Compile Include="Proje\ZeytinyagiBlog.aspx.cs">
       <DependentUpon>ZeytinyagiBlog.aspx</DependentUpon>
@@ -4829,7 +4845,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="json.json" />
     <Content Include="Assets\angular-1.8.2\angular-animate.min.js.map" />
     <Content Include="Assets\angular-1.8.2\angular-aria.min.js.map" />
     <Content Include="Assets\angular-1.8.2\angular-cookies.min.js.map" />
@@ -5145,6 +5160,7 @@
     <Content Include="Assets\fontawesome\webfonts\fa-v4compatibility.woff2" />
     <None Include="packages.config" />
     <Content Include="Proje\ZeytinYagliYerimAman.Master" />
+    <Content Include="Proje\Zeytinyagi.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

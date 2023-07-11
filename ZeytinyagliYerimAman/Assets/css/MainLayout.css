@@ -1,6 +1,5 @@
 ﻿body {
-    font-family: 'Mynerve', cursive;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -18,7 +17,7 @@
     .menu a {
         color: white;
         text-decoration: none;
-        font-size:10pt;
+        font-size:12pt;
     }
     .menu a:hover {
         color:yellowgreen;

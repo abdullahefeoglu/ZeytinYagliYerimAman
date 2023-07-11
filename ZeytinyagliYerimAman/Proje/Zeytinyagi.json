@@ -5,11 +5,11 @@
       "ProductName": "Olgun Hasat Tirilye Zeytinyağı 5L",
       "Category": "Klasik Seri ・ Olgun Hasat ・ Tirilye",
       "UnitPrice": "₺1,269.00",
-      "ProductionStages": "Zeytinler özenli bir ekip çalışması ile dalından toplanır. Tamamen mekanik yöntemler ile zeytinin suyu bekletilmeden sıkılır. Krom tanklarda, 15 derecede oksijenle teması kesilerek saklanır. Zeytinyağının besin değerinin korunmasına uygun metal kapaklı koyu renk şişelere dolum yapılır.",
       "img": "../Assets/photo/felovia%205%20litre.png",
       "img2": "../Assets/photo/felovia%205litre%202.png",
       "img3": "../Assets/photo/zeytinyagi%205l%203.png",
       "Description": "Felovia Zeytinyağı Klasik Seri ürünlerinden Tirilye olgun hasat. 2022 yılı olgunlaşmış zeytinler bekletilmeden sıkılarak üretilmiştir. Krom tanklarda oksijenle teması kesilerek saklanmaktadır. Siparişinizden hemen sonra şişelenip kargoya verilmektedir. ",
+
       "CarouselID": "demo",
       "TargetID": "#demo"
     },
@@ -18,7 +18,6 @@
       "ProductName": "Erken Hasat Tirilye 750ml",
       "Category": "Klasik Seri ・ Erken Hasat ・ Tirilye",
       "UnitPrice": "₺1,269.00",
-      "ProductionStages": "Zeytinler özenli bir ekip çalışması ile dalından toplanır. Tamamen mekanik yöntemler ile zeytinin suyu bekletilmeden sıkılır. Krom tanklarda, 15 derecede oksijenle teması kesilerek saklanır. Zeytinyağının besin değerinin korunmasına uygun metal kapaklı koyu renk şişelere dolum yapılır.",
       "img": "../Assets/photo/zeytinyagi750ml.png",
       "img2": "../Assets/photo/zeytinyagi750ml_2.jpg",
       "img3": "../Assets/photo/zeytinyagi750ml_3.png",
@@ -31,7 +30,6 @@
       "ProductName": "2x Olgun Hasat Tirilye 750ml -İNDİRİMLİ ÜRÜN-",
       "Category": "Klasik Seri ・ Olgun Hasat ・ Tirilye",
       "UnitPrice": "₺455.00",
-      "ProductionStages": "Zeytinler özenli bir ekip çalışması ile dalından toplanır. Tamamen mekanik yöntemler ile zeytinin suyu bekletilmeden sıkılır. Krom tanklarda, 15 derecede oksijenle teması kesilerek saklanır. Zeytinyağının besin değerinin korunmasına uygun metal kapaklı koyu renk şişelere dolum yapılır.",
       "img": "../Assets/photo/2xolgunhasat750ml.png",
       "img2": "../Assets/photo/zeytinyagi750ml_2.jpg",
       "img3": "../Assets/photo/zeytinyagi750ml.png",
@@ -44,7 +42,6 @@
       "ProductName": "Olgun Hasat Tirilye 500ml",
       "Category": "Klasik Seri ・ Olgun Hasat ・ Tirilye",
       "UnitPrice": "₺195.00",
-      "ProductionStages": "Zeytinler özenli bir ekip çalışması ile dalından toplanır. Tamamen mekanik yöntemler ile zeytinin suyu bekletilmeden sıkılır. Krom tanklarda, 15 derecede oksijenle teması kesilerek saklanır. Zeytinyağının besin değerinin korunmasına uygun metal kapaklı koyu renk şişelere dolum yapılır.",
       "img": "../Assets/photo/zeytinyagi500ml.jpg",
       "img2": "../Assets/photo/zeytinyagi500ml_2.jpg",
       "img3": "../Assets/photo/zeytinyagi500ml_3.jpg",
@@ -57,13 +54,22 @@
       "ProductName": "Olgun Hasat Ayvalık 5L",
       "Category": "Klasik Seri ・ Olgun Hasat ・ Ayvalık",
       "UnitPrice": "₺1,269.00",
-      "ProductionStages": "Zeytinler özenli bir ekip çalışması ile dalından toplanır. Tamamen mekanik yöntemler ile zeytinin suyu bekletilmeden sıkılır. Krom tanklarda, 15 derecede oksijenle teması kesilerek saklanır. Zeytinyağının besin değerinin korunmasına uygun metal kapaklı koyu renk şişelere dolum yapılır.",
       "img": "../Assets/photo/zeytinyagi5layvalik.jpg",
       "img2": "../Assets/photo/zeytinyagi5layvalik_2.jpg",
       "img3": "../Assets/photo/zeytinyagi5layvalik_3.png",
       "Description": "Felovia Zeytinyağı ürünlerinden Ayvalık olgun hasat. 2022 yılı hasatından yeni olgunlaşmaya başlamış zeytinlerden üretilmiştir. Krom tanklarda oksijenle teması kesilerek saklanmaktadır. Siparişinizden hemen sonra şişelenip kargoya verilmektedir.  ",
       "CarouselID": "demo4",
       "TargetID": "#demo4"
+    }
+  ],
+  "TeknikBilgi": [
+    {
+      "HarvestYear": "Kasım 2022",
+      "HarvestType": "Olgun Hasat",
+      "Contents": "100% Natürel Sızma Zeytinyağı",
+      "Weight": "5L",
+      "ProductionStages": "Zeytinler özenli bir ekip çalışması ile dalından toplanır. Tamamen mekanik yöntemler ile zeytinin suyu bekletilmeden sıkılır. Krom tanklarda, 15 derecede oksijenle teması kesilerek saklanır. Zeytinyağının besin değerinin korunmasına uygun metal kapaklı koyu renk şişelere dolum yapılır.",
+      "image": "../Assets/photo/urundetayarkaplan.jpg"
     }
   ]
 }

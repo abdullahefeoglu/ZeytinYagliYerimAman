@@ -11,7 +11,7 @@ namespace ZeytinyagliYerimAman.Proje
 {
 
 
-    public partial class Video
+    public partial class Odullerimiz
     {
     }
 }

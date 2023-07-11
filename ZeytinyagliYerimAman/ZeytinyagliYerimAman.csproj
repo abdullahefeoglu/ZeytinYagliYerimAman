@@ -4794,15 +4794,23 @@
     <Content Include="Assets\fontawesome\svgs\solid\yen-sign.svg" />
     <Content Include="Assets\fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="Assets\fontawesome\svgs\solid\z.svg" />
+    <Content Include="Assets\photo\2xolgunhasat750ml.png" />
+    <Content Include="Assets\photo\zeytinyagi750ml.png" />
+    <Content Include="Assets\photo\zeytinyagi750ml_3.png" />
     <Content Include="Assets\photo\felovia 5 litre.png" />
     <Content Include="Assets\photo\felovia 5litre 2.png" />
-    <Content Include="Assets\photo\zeytinyagi2L.jpg" />
-    <Content Include="Assets\photo\zeytinyagi2L_2.jpg" />
-    <Content Include="Assets\photo\zeytinyagi2L_3.jpg" />
+    <Content Include="Assets\photo\zeytinyagi 5l 3.png" />
+    <Content Include="Assets\photo\zeytinyagi500ml.jpg" />
+    <Content Include="Assets\photo\zeytinyagi500ml_2.jpg" />
+    <Content Include="Assets\photo\zeytinyagi500ml_3.jpg" />
+    <Content Include="Assets\photo\zeytinyagi5layvalik.jpg" />
+    <Content Include="Assets\photo\zeytinyagi5layvalik_2.jpg" />
+    <Content Include="Assets\photo\zeytinyagi5layvalik_3.png" />
+    <Content Include="Assets\photo\zeytinyagi750ml_2.jpg" />
     <Content Include="Assets\photo\zeytinyağıanasyafa.jpg" />
     <Content Include="Proje\Anasayfa.aspx" />
+    <Content Include="Proje\Odullerimiz.aspx" />
     <Content Include="Proje\UrunDetay.aspx" />
-    <Content Include="Proje\Video.aspx" />
     <Content Include="Proje\ZeytinyagiBlog.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -4814,19 +4822,19 @@
     <Compile Include="Proje\Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Proje\Odullerimiz.aspx.cs">
+      <DependentUpon>Odullerimiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Proje\Odullerimiz.aspx.designer.cs">
+      <DependentUpon>Odullerimiz.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Proje\UrunDetay.aspx.cs">
       <DependentUpon>UrunDetay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Proje\UrunDetay.aspx.designer.cs">
       <DependentUpon>UrunDetay.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Proje\Video.aspx.cs">
-      <DependentUpon>Video.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Proje\Video.aspx.designer.cs">
-      <DependentUpon>Video.aspx</DependentUpon>
     </Compile>
     <Compile Include="Proje\ZeytinyagiBlog.aspx.cs">
       <DependentUpon>ZeytinyagiBlog.aspx</DependentUpon>

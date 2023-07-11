@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ZeytinyagliYerimAman.Proje
 {
-    public partial class Video : System.Web.UI.Page
+    public partial class Odullerimiz : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

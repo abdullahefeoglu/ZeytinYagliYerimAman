@@ -5,7 +5,16 @@
         .resim {
             height: 300px;
             width: 400px;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
         }
+
+            .resim:hover {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+            }
 
         .card {
             height: 550px;
@@ -14,19 +23,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <img src="../Assets/photo/zeytinyağıanasyafa.jpg" class="img" />
-    <div class="yardimci"></div>
-    <div class="container" ng-app="card" ng-controller="verigetir">
+    <div style="height: 100px; width: 100%; background-color: white;">
+    </div>
+    <div class="container mt-5" ng-app="card" ng-controller="verigetir">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6" ng-repeat="x in zeytinyagi">
-                <div class="card">
+                <div class="card mt-5">
                     <div class="card-body">
                         <div>
-                            <div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                                </div>
+                            <div id="{{x.CarouselID}}" class="carousel slide" data-bs-pause="hover">
                                 <div class="carousel-inner">
                                     <a href="UrunDetay.aspx">
                                         <div class="carousel-item active">
@@ -44,13 +49,10 @@
                                         </div>
                                     </a>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="{{x.TargetID}}" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon"></span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                                    <span class="carousel-control-next-icon"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                <button class="carousel-control-next" type="button" data-bs-target="{{x.TargetID}}" data-bs-slide="next">
                                     <span class="carousel-control-next-icon"></span>
                                 </button>
                             </div>
@@ -60,6 +62,9 @@
                                 </p>
                                 <p class="card-text mt-4 text">
                                     <b>{{x.Category}}</b>
+                                </p>
+                                <p class="card-text mt-4 text">
+                                    <b>{{x.UnitPrice}}</b>
                                 </p>
                             </div>
                         </div>
